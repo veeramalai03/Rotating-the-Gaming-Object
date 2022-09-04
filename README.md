@@ -37,7 +37,27 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class maram : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 180 * Time.deltaTime);
+    }
+}
 
 ## Output:
+![WhatsApp Image 2022-09-02 at 9 56 35 AM](https://user-images.githubusercontent.com/75234790/188311232-7108c719-f50d-4c9c-be3f-9fc4a03c9e92.jpeg)
 
 ## Result:
+experiment has been successfully submitted
